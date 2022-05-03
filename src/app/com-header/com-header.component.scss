@@ -1,13 +1,26 @@
-header,
-nav {
+header {
   display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
 }
 nav {
+  gap: 15px;
+  a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  a::hover,
+  a::focus {
+    color: black !important;
+  }
   p {
     font-size: 18px;
+    margin: 0;
   }
 }
-
-.center {
-  justify-content: center;
+.languages-container {
+  width: 190px;
+  display: flex;
+  justify-content: flex-end;
 }

@@ -1,0 +1,28 @@
+.hero-container {
+  display: flex;
+  min-height: calc(100vh - 51.5px);
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+  max-width: 552px;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+
+.first-photo {
+  transform: translateX(20px);
+}
+
+.second-photo {
+  z-index: 2;
+  align-self: baseline;
+}

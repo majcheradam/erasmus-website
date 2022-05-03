@@ -8,6 +8,8 @@ import { ComHeroComponent } from './com-hero/com-hero.component';
 import { ComHomeSectionComponent } from './com-home-section/com-home-section.component';
 import { ComSubpageSectionComponent } from './com-subpage-section/com-subpage-section.component';
 import { ComFooterComponent } from './com-footer/com-footer.component';
+import { ComLiveInValladolidComponent } from './com-live-in-valladolid/com-live-in-valladolid.component';
+import { ComMainPageComponent } from './com-main-page/com-main-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ComFooterComponent } from './com-footer/com-footer.component';
     ComHeroComponent,
     ComHomeSectionComponent,
     ComSubpageSectionComponent,
-    ComFooterComponent
+    ComFooterComponent,
+    ComLiveInValladolidComponent,
+    ComMainPageComponent
   ],
   imports: [
     BrowserModule,

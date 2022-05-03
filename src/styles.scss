@@ -12,14 +12,17 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: #252525;
-  max-width: 1400px;
+
   margin: 0 auto;
-  padding: 40px 40px 0;
   @media (max-width: 768px) {
     padding: 0 16px;
   }
 }
-
+.main-container {
+  margin: 0 auto;
+  padding: 40px 40px 0;
+  max-width: 1400px;
+}
 a {
   color: #252525;
 }
