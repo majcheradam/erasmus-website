@@ -1,0 +1,18 @@
+.subpage-container {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+}
+
+.subpage-text {
+  width: 555px;
+  h1 {
+    font-weight: 500;
+    font-size: 64px;
+  }
+  p {
+    font-size: 21.33px;
+  }
+}

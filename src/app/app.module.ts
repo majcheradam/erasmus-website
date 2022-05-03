@@ -10,6 +10,7 @@ import { ComSubpageSectionComponent } from './com-subpage-section/com-subpage-se
 import { ComFooterComponent } from './com-footer/com-footer.component';
 import { ComLiveInValladolidComponent } from './com-live-in-valladolid/com-live-in-valladolid.component';
 import { ComMainPageComponent } from './com-main-page/com-main-page.component';
+import { ComPeopleComponent } from './com-people/com-people.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComMainPageComponent } from './com-main-page/com-main-page.component';
     ComSubpageSectionComponent,
     ComFooterComponent,
     ComLiveInValladolidComponent,
-    ComMainPageComponent
+    ComMainPageComponent,
+    ComPeopleComponent
   ],
   imports: [
     BrowserModule,
