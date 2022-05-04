@@ -13,14 +13,14 @@ body {
   line-height: 1.75;
   color: #252525;
   margin: 0 auto;
-  @media (max-width: 768px) {
-    padding: 0 16px;
-  }
 }
 .main-container {
   margin: 0 auto;
   padding: 40px 40px 0;
   max-width: 1400px;
+  @media (max-width: 768px) {
+    padding: 16px 16px;
+  }
 }
 .subpage-container {
   min-height: 500px;

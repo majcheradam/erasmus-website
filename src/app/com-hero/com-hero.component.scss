@@ -1,6 +1,9 @@
 .hero-container {
   display: flex;
   min-height: calc(900px - 51.5px);
+  @media (max-width: 768px) {
+    min-height: 90vh;
+  }
 }
 .hero-text {
   display: flex;
@@ -8,6 +11,24 @@
   justify-content: flex-end;
   padding-bottom: 100px;
   max-width: 552px;
+  p:first-child {
+    font-size: 20px;
+  }
+  p:last-child {
+    font-size: 24px;
+  }
+  @media (max-width: 549px) {
+    color: white;
+    h1 {
+      font-size: 60px;
+    }
+    p:first-child {
+      font-size: 14px;
+    }
+    p:last-child {
+      display: none;
+    }
+  }
 }
 
 .hero-images {
@@ -23,6 +44,20 @@
 }
 
 .second-photo {
+  max-width: 100%;
   z-index: 2;
   align-self: baseline;
+}
+
+@media (max-width: 1100px) {
+  .second-photo {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-images,
+  .first-photo {
+    display: none;
+  }
 }
