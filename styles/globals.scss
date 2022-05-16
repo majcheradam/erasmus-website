@@ -20,7 +20,7 @@ body {
   padding: 40px 40px 0;
   max-width: 1400px;
   @media (max-width: 768px) {
-    padding: 16px 16px;
+    padding: 16px;
   }
 }
 
@@ -118,7 +118,7 @@ nav {
   display: none;
   border: none;
   background-color: white;
-  box-shadow: 0px 4px 4px #00000040;
+  box-shadow: 0 4px 4px #00000040;
   border-radius: 15px;
 }
 
