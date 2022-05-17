@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inter:400');
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500');
 
 html {
   font-size: 112.5%;
@@ -20,7 +20,7 @@ body {
   padding: 40px 40px 0;
   max-width: 1400px;
   @media (max-width: 768px) {
-    padding: 16px;
+    padding: 0 16px;
   }
 }
 
@@ -77,6 +77,7 @@ small,
 // Header
 
 header {
+  padding-top: 16px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -263,34 +264,48 @@ nav {
 // articles
 
 .subpage-container {
-  min-height: calc(100vh - 402px);
-  padding: 100px 0;
+  min-height: calc(100vh - 418px);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 135px;
+  gap: 50px;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media (min-width: 768px) {
+    padding: 100px 0;
+    gap: 135px;
+  }
 }
 
 .subpage-text {
   width: 555px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  @media (max-width: 768px) {
+    gap: 30px;
+  }
+  h1,
+  p {
+    margin: 0;
+  }
   h1 {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 110%;
     letter-spacing: -0.03em;
+    @media (max-width: 768px) {
+      font-size: 48px;
+    }
   }
   p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 21.33px;
     line-height: 130%;
-    /* or 28px */
-
     letter-spacing: -0.01em;
+    @media (max-width: 768px) {
+      font-size: 19px;
+    }
   }
 }
