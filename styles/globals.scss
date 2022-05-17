@@ -158,7 +158,7 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 100px;
-  max-width: 552px;
+  max-width: 470px;
   p:first-child {
     font-size: 20px;
   }
@@ -170,7 +170,7 @@ nav {
       font-size: 60px;
     }
     p:first-child {
-      font-size: 14px;
+      font-size: 16px;
     }
     p:last-child {
       display: none;
@@ -220,6 +220,9 @@ nav {
     font-size: 36px;
     margin: 50px 0;
     text-align: center;
+    @media (max-width: 900px) {
+      font-size: 32px;
+    }
   }
   a {
     transition: 0.2s ease-in-out;
@@ -236,7 +239,6 @@ nav {
 }
 .articles-container {
   justify-content: center;
-  padding: 0 95px;
   flex-wrap: wrap;
   gap: 55px;
   p {
@@ -253,7 +255,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c4c4c4;
+  color: white;
+  background-color: #303e58;
   margin-top: auto;
 }
 
