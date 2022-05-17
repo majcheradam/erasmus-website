@@ -77,7 +77,6 @@ small,
 // Header
 
 header {
-  padding-top: 16px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -88,6 +87,9 @@ header {
   a::hover,
   a::focus {
     color: black;
+  }
+  @media (max-width: 768px) {
+    padding-top: 16px;
   }
 }
 nav {
@@ -263,7 +265,7 @@ nav {
 // articles
 
 .subpage-container {
-  min-height: calc(100vh - 418px);
+  min-height: calc(100vh - 402px);
   display: flex;
   justify-content: center;
   align-items: center;
