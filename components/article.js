@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const Article = ({ title, text1, text2 }) => {
+const Article = ({ title, text1, text2, image }) => {
   return (
     <div className="subpage-container main-container">
       <div className="subpage-text">
@@ -12,7 +12,7 @@ const Article = ({ title, text1, text2 }) => {
           {text2}
         </p>
       </div>
-      <Image src="/Image3.png" alt="" width="345" height="476" />
+      <Image src={image} alt="" width="345" height="476" />
     </div>
   )
 }

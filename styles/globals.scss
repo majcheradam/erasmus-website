@@ -37,7 +37,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 3rem 0 1.38rem;
+  margin: 0;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 110%;
@@ -260,6 +260,9 @@ nav {
   color: white;
   background-color: #303e58;
   margin-top: auto;
+  p {
+    text-align: center;
+  }
 }
 
 // articles
@@ -308,5 +311,14 @@ nav {
     @media (max-width: 768px) {
       font-size: 19px;
     }
+  }
+}
+
+.student-grid {
+  max-width: 1152px;
+  display: flex;
+  gap: 20px;
+  p {
+    margin: 15px 0 0 0;
   }
 }
