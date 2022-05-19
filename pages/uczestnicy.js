@@ -7,8 +7,9 @@ export default function Home() {
     <Layout title="Uczestnicy">
       <Article
         title="Uczestnicy"
-        text1="W trakcie pisania..."
-        text2="W trakcie pisania..."
+        text1="Jesteśmy grupą 15 osobową z 5 szkół wchodzących w konsorcjum którego
+        organizatorem jest Edu-It w Rzeszowie. W skład naszego konsorcjum wchodzą:"
+        text2=""
         image="/Image6.png"
       />
       <StudentsGrid />

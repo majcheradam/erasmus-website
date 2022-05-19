@@ -7,8 +7,8 @@ const Hero = () => {
         <p>2021-1-PL01-KA121-VET-000021185</p>
         <h1>Erasmus+ Valladolid</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the
+          Jako grupa 15 uczniów wyjechaliśmy do Hiszpanii na praktyki zawodowe w
+          związku z programem Erasmus+
         </p>
       </div>
 

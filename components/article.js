@@ -12,7 +12,7 @@ const Article = ({ title, text1, text2, image }) => {
           {text2}
         </p>
       </div>
-      <Image src={image} alt="" width="345" height="476" />
+      <Image src={image} alt={title} width="345" height="476" />
     </div>
   )
 }
