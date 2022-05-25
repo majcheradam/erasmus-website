@@ -2,6 +2,23 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 
+const Links = () => (
+  <>
+    <Link href="zycie-w-valladolid">
+      <a>Życie w Valladolid</a>
+    </Link>
+    <Link href="praktyka-zawodowa">
+      <a>Praktyka zawodowa</a>
+    </Link>
+    <Link href="wycieczki">
+      <a>Wycieczki</a>
+    </Link>
+    <Link href="uczestnicy">
+      <a>Uczestnicy</a>
+    </Link>
+  </>
+)
+
 const Header = () => {
   const [open, setOpen] = useState(false)
   return (
@@ -18,18 +35,7 @@ const Header = () => {
           </a>
         </Link>
         <nav className="navbar center">
-          <Link href="zycie-w-valladolid">
-            <a>Życie w Valladolid</a>
-          </Link>
-          <Link href="praktyka-zawodowa">
-            <a>Praktyka zawodowa</a>
-          </Link>
-          <Link href="wycieczki">
-            <a>Wycieczki</a>
-          </Link>
-          <Link href="uczestnicy">
-            <a>Uczestnicy</a>
-          </Link>
+          <Links />
         </nav>
         <div className="languages-container">
           <Link href="https://edu-it.com.pl/">
@@ -46,18 +52,7 @@ const Header = () => {
       </header>
       {open && (
         <div className="hamburger-menu">
-          <Link href="zycie-w-valladolid">
-            <a>Życie w Valladolid</a>
-          </Link>
-          <Link href="praktyka-zawodowa">
-            <a>Praktyka zawodowa</a>
-          </Link>
-          <Link href="wycieczki">
-            <a>Wycieczki</a>
-          </Link>
-          <Link href="uczestnicy">
-            <a>Uczestnicy</a>
-          </Link>
+          <Links />
           <Link href="https://edu-it.com.pl/">
             <a>Edu-IT</a>
           </Link>
