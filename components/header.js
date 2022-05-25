@@ -19,13 +19,13 @@ const Header = () => {
         </Link>
         <nav className="navbar center">
           <Link href="zycie-w-valladolid">
-            <a>Życie w Valladolid </a>
+            <a>Życie w Valladolid</a>
           </Link>
           <Link href="praktyka-zawodowa">
             <a>Praktyka zawodowa</a>
           </Link>
           <Link href="wycieczki">
-            <a> Wycieczki </a>
+            <a>Wycieczki</a>
           </Link>
           <Link href="uczestnicy">
             <a>Uczestnicy</a>
@@ -53,7 +53,7 @@ const Header = () => {
             <a>Praktyka zawodowa</a>
           </Link>
           <Link href="wycieczki">
-            <a> Wycieczki</a>
+            <a>Wycieczki</a>
           </Link>
           <Link href="uczestnicy">
             <a>Uczestnicy</a>
