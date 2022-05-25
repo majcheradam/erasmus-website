@@ -28,7 +28,7 @@ const Header = () => {
             <a> Wycieczki </a>
           </Link>
           <Link href="uczestnicy">
-            <a>Uczensticy</a>
+            <a>Uczestnicy</a>
           </Link>
         </nav>
         <div className="languages-container">
@@ -56,7 +56,10 @@ const Header = () => {
             <a> Wycieczki </a>
           </Link>
           <Link href="uczestnicy">
-            <a>Uczensticy</a>
+            <a>Uczestnicy</a>
+          </Link>
+          <Link href="https://edu-it.com.pl/">
+            <a>Edu-IT</a>
           </Link>
         </div>
       )}
