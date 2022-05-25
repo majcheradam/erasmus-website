@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 const Header = () => {
+  const [open, setOpen] = useState(false)
   return (
     <div className="main-container">
       <header>
@@ -34,10 +36,30 @@ const Header = () => {
             <a>Edu-IT</a>
           </Link>
         </div>
-        <button type="button" className="hamburger">
+        <button
+          onClick={() => setOpen(!open)}
+          aria-label="Menu"
+          className="hamburger"
+        >
           <Image src="/Vector.svg" alt="" width="30" height="24" />
         </button>
       </header>
+      {open && (
+        <div className="hamburger-menu">
+          <Link href="zycie-w-valladolid">
+            <a>Życie w Valladolid </a>
+          </Link>
+          <Link href="praktyka-zawodowa">
+            <a>Praktyka zawodowa</a>
+          </Link>
+          <Link href="wycieczki">
+            <a> Wycieczki </a>
+          </Link>
+          <Link href="uczestnicy">
+            <a>Uczensticy</a>
+          </Link>
+        </div>
+      )}
     </div>
   )
 }
