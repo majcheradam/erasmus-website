@@ -11,7 +11,7 @@ export default function Home() {
         organizatorem jest Edu-It w Rzeszowie. W skład naszego konsorcjum wchodzą:"
         text2="Zespół Szkół nr 2 im. Jana Kochanowskiego w Łańcucie, Zespół Szkół Elektronicznych w Rzeszowie, Zespół Szkół im. gen. Józefa Kustonia w Lubaczowie, Zespół Szkół Technicznych w Łańcucie, Zespół Szkół Energetycznych w Rzeszowie
         "
-        image="/Image6.png"
+        image="/Image6.webp"
       />
       <StudentsGrid />
     </Layout>

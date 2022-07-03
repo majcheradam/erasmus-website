@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="hero-images">
         <div className="first-photo">
           <Image
-            src="/Image1.png"
+            src="/Image1.webp"
             alt=""
             height="430"
             width="358"
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div className="second-photo">
           <Image
-            src="/Image2.png"
+            src="/Image2.webp"
             alt=""
             height="430"
             width="358"
